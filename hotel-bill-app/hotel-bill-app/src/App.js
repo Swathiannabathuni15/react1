@@ -85,7 +85,7 @@ const handlePrint = () => {
         fontFamily: 'Arial, sans-serif',
       }}
     >
-      <h2 style={{ textAlign: 'center', color: '#333' }}>PRASANNA KUMAR'S Hotel Invoice</h2>
+      <h2 style={{ textAlign: 'center', color: '#333' }}>SWATHI'S Hotel Invoice</h2>
       
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
     <h4 style={{ color: '#333' }}>{formattedDate} {formattedTime}</h4>
@@ -206,7 +206,7 @@ const handlePrint = () => {
           Print
         </button>
       </div>
-      <div className="watermark">N.PRASANNA KUMAR </div>
+      <div className="watermark">A.SWATHI </div>
     </div>
   );
 };
